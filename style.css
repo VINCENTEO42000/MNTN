@@ -20,12 +20,33 @@ h1, h2, h3, h4, h5, h6 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  color: white;
 
 }
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+p {
+ font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}
+
+a, ul, li, nav {
+    color : white ;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* dans un container on un a max-width et un width 100% */
 .container-1000 {
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container-1000-with-gap {
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -175,6 +196,10 @@ justify-content: flex-end;
     width: 42%;
 }
 
+.w-45 {
+    width: 48%;
+}
+
 .w-48 {
     width: 48%;
 }
@@ -214,6 +239,66 @@ justify-content: flex-end;
 .w-100 {
     width: 100%;
 }
+/*-------------------------------------------------------------------------------------------*/
+/* seul les margin top et bottom sont tolérés*/
+/* Beaucoup de margin bottom et top beaucoup trop, dsl je ne suis pas encore au point*/
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+.margin-top-180 {
+    margin-top: 180px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-250 {
+    margin-top: 250px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-250 {
+    margin-bottom: 250px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 
 /*classe bouton*/
@@ -283,10 +368,17 @@ li {
 
 .fixed-position {
     position: fixed;
+    
 }
 
 header {
     width : 100%;
+    
+}
+
+/*mon habit de gala*/
+.black-clothes {
+background-color: #0B1D26;
 }
 
 /*----------------------------------------------------------------------*/
@@ -302,6 +394,11 @@ header {
     padding: 0 0 50px 200px;
 }
 
+.border-right {
+    border-right: solid;
+    border-right-color: white;
+}
+
 /*SECTION SECTION FOOTER*/
 
 #line {
@@ -311,60 +408,19 @@ header {
     align-items: flex-end;
 }
 
+.goldy-color {
+    color: #FBD784;
+}
+
+.niveau-01 {
+    position: fixed;
+    z-index: -1;
+
+}
+
+
+
 /*----------------------------------------------------------------------*/
-/* seul les margin top et bottom sont tolérés*/
-/* Beaucoup de margin bottom et top beaucoup trop, dsl je ne suis pas encore au point*/
 
-.margin-top-10 {
-    margin-top: 10px;
-}
-
-.margin-top-100 {
-    margin-top: 100px;
-}
-
-.margin-top-150 {
-    margin-top: 150px;
-}
-
-.margin-top-180 {
-    margin-top: 180px;
-}
-
-.margin-top-25 {
-    margin-top: 25px;
-}
-
-.margin-top-50 {
-    margin-top: 50px;
-}
-
-.margin-top-250 {
-    margin-top: 250px;
-}
-
-.margin-top-200 {
-    margin-top: 200px;
-}
-
-.margin-bottom-10 {
-    margin-bottom: 10px;
-}
-
-.margin-bottom-100 {
-    margin-bottom: 100px;
-}
-
-.margin-bottom-25 {
-    margin-bottom: 25px;
-}
-
-.margin-bottom-50 {
-    margin-bottom: 50px;
-}
-
-.margin-bottom-250 {
-    margin-bottom: 250px;
-}
 
 /*----------------------------------------------------------------------*/
