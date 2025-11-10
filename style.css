@@ -5,7 +5,64 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+.andada-pro {
+  font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
 /*-------------------------------------------------------------------------------------------*/
+/* dans un container on un a max-width et un width 100% */
+.container-1000 {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.container-1000-with-gap {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+
+
+}
+/*-------------------------------------------------------------------------------------------*/
+
+/* TEST DE VISUALISATION POUR LES NULS!!!*/
+
+.bgred {
+    background-color: red;
+}
+
+.bgblue {
+    background-color: blue;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+.bgyellow {
+    background-color: yellow;
+}
+/*-------------------------------------------------------------------------------------------*/
+
 /* les classe fonctionnelle flex */
 
 .flex {
@@ -27,6 +84,10 @@
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+justify-content: flex-end;
 }
 
 .justify-flexstart {
@@ -183,3 +244,127 @@
 
 }
 /*-------------------------------------------------------------------------------------------*/
+
+/* ce que j'apelle les inchangés*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.txt-white {
+    color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+
+/*PAGE INDEX*/
+
+/*HEARDER*/
+
+.fixed-position {
+    position: fixed;
+}
+
+header {
+    width : 100%;
+}
+
+/*----------------------------------------------------------------------*/
+/*SECTION HERO*/
+
+
+.section-hero {
+    background-image: url(asset/banniere3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vH;
+    padding: 0 0 50px 200px;
+}
+
+/*SECTION SECTION FOOTER*/
+
+#line {
+    height: 3px;
+    width: 70px;
+    background-color: #FBD784;
+    align-items: flex-end;
+}
+
+/*----------------------------------------------------------------------*/
+/* seul les margin top et bottom sont tolérés*/
+/* Beaucoup de margin bottom et top beaucoup trop, dsl je ne suis pas encore au point*/
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+.margin-top-180 {
+    margin-top: 180px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-250 {
+    margin-top: 250px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-250 {
+    margin-bottom: 250px;
+}
+
+/*----------------------------------------------------------------------*/
