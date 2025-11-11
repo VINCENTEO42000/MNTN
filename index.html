@@ -13,25 +13,33 @@
 
 </head>
 
+<!-- la balise "a"du hero ne fonctionne pas et donc pas essayer de faire le bouton scroll down
+ pas réussi à mettre la parti supérieur de la première section sur le hero
+ pas réussi à utiliser la fonction sticky
+ positionnement des boites encore harsardeux
+ pas eu le courage de faire les autres pages
+  -->
+
+
 <body>
     <!-- head -->
     <header class="flex space-around aling-center fixed-position">
 
-        <a href="index.html" class="w-20 txt-white">MNTN</a>
+        <a href="index.html" class="w-20 txt-white size-20 gras-900">MNTN</a>
 
-        <nav class="w-33">
+        <nav class="w-15">
             <!-- flex ici pour pouvoir manipuler les li -->
             <ul class="flex space-between">
-                <li><a href="" class="w-20 txt-white">Equipement</a></li>
-                <li><a href="" class="w-20 txt-white">About us</a></li>
-                <li><a href="" class="w-20 txt-white">Blog</a></li>
+                <li><a href="" class="w-20 txt-white size-15">Equipement</a></li>
+                <li><a href="" class="w-20 txt-white size-15">About us</a></li>
+                <li><a href="" class="w-20 txt-white size-15">Blog</a></li>
             </ul>
         </nav>
 
         <nav class="w-33">
             <ul class="flex justify-end">
-                <li><a href="" class="w-20 txt-white"><i class="ph ph-instagram-logo"></i></a></li>
-                <li><a href="" class="w-20 txt-white"><i class="ph ph-twitter-logo"></i></a></li>
+                <li><a href="" class="w-20 txt-white size-30"><i class="ph ph-instagram-logo"></i></a></li>
+                <li><a href="" class="w-20 txt-white size-30"><i class="ph ph-twitter-logo"></i></a></li>
 
         </nav>
 
@@ -39,31 +47,35 @@
 
 
     <!-- section hero -->
-    <section class="section-hero flex justify-end ">
+    <section class="section-hero flex justify-end">
 
-        <div class="w-50 margin-top-250 bgblue container-1000-with-gap ">
+        <div class="w-50 margin-top-50 container-1000-with-gap margin-bottom-300">
 
-            <div class="flex align-end space-between w-50">
-                <div class="w-10" id="line"></div>
+            <div class="flex align-end space-between w-50"> <!-- encore de la bidouille de taille -->
+                <div class="w-05 margin-bottom-5" id="line"></div>
                 <h2 class="w-60 goldy-color">A Hiking guide</h2>
             </div>
 
             <h1>Be prepared for the Mountains and beyond!</h1>
 
+            <!-- pourquoi ma balise "a" ne fonctionne plus? -->
             <a href="">
-                <div class="flex align-center w-80">
-                    <p class="w-20">scroll down</p>
-                    <p class="w-10">↓</p>
+                <div class="flex align-center w-80 ">
+                    <p class="w-20">scroll down </p>
+                    <p class="w-10 ">↓</p>
                 </div>
             </a>
+
         </div>
 
-        <nav class="w-10 margin-top-250 border-right bgred">
-            <ul>
-                <li><a href=""></a>Start</li>
-                <li><a href=""></a>01</li>
-                <li><a href=""></a>02</li>
-                <li><a href=""></a>03</li>
+        <!-- je suis désolé j'ai utilisé un margin right, je ne savais pas comment faire -->
+        <nav class="w-05 margin-top-50 border-right margin-right-50 margin-bottom-300 ">
+            <ul class=" flex vertical space-around">
+                <!-- j'arrive pas à le centrer s'il te plait NICO LE ROBOT aide moi -->
+                <li class="margin-bottom-25 "><a href="" class="w-10"></a>Start</li>
+                <li class="margin-bottom-25 "><a href="" class="w-10"></a>01</li>
+                <li class="margin-bottom-25 "><a href="" class="w-10"></a>02</li>
+                <li><a href="" class="w-10"></a>03</li>
 
             </ul>
         </nav>
@@ -82,32 +94,36 @@
             <div class="flex space-between align-center margin-bottom-100">
 
                 <!-- mon premier enfant -->
-                <div class="w-45">
+                <div class="w-50 niveau-02 ">
 
-                    <p class=" niveau-01 size-40">01</p>
+                    <p class=" niveau-01 size-150 gras-900 opacity ">01</p>
 
-                    <div class=" flex w-65 space-between">
-                        <div class="w-10" id="line"></div>
+                    <div class="margin-left-150 margin-top-100">
 
-                        <h2 class="w-60">GET STARTED</h2>
+                        <div class="flex align-end gap-20 w-100 margin-bottom-25">
+                            <div class="w-05 margin-bottom-5" id="line2"></div>
+
+                            <h2 class="w-50 goldy-color size-20">GET STARTED</h2>
+                        </div>
+
+
+                        <h3 class="margin-bottom-25 size-50"> What level of hiker are you?</h3>
+
+                        <p class="margin-bottom-25">Determining what level of hiker you are can be an important tool
+                            when planning future hikes.
+                            This
+                            hiking level guide will help you plan hikes according to different hike ratings set by
+                            various
+                            websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate,
+                            advanced
+                            moderate, expert, or expert backpacker? </p>
+
+                        <a href="" class="goldy-color"> read more →</a>
                     </div>
-
-
-                    <h3> What level of hiker are you?</h3>
-
-                    <p>Determining what level of hiker you are can be an important tool when planning future hikes.
-                        This
-                        hiking level guide will help you plan hikes according to different hike ratings set by
-                        various
-                        websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate,
-                        advanced
-                        moderate, expert, or expert backpacker? </p>
-
-                    <a href="" class="goldy-color"> read more →</a>
                 </div>
 
                 <!-- mon deuxième enfant -->
-                <img src="asset/image1.jpg" class="w-45" alt="montage">
+                <img src="asset/image1.jpg" class="w-38" alt="montage">
 
             </div>
 
@@ -115,31 +131,34 @@
 
         <!-- section-02 -->
         <section class="container-1000">
-
+            <!-- mon parent -->
             <div class="flex space-between align-center margin-bottom-100">
+                <!-- mon premier enfant -->
+                <img src="asset/image2.jpg" class="w-38" alt="montage">
 
-                <img src="asset/image2.jpg" class="w-45" alt="montage">
 
+                <!-- mon deuxième enfant -->
+                <div class="w-50 niveau-02 ">
+                    <p class=" niveau-01-bis size-150 gras-900 opacity ">02</p>
+                    <div class="margin-left-150 margin-top-100">
 
+                        <div class="flex align-end gap-20 w-100 margin-bottom-25">
+                            <div class="w-05 margin-bottom-5" id="line2"></div>
 
-                <div class="w-45">
-                    <p class=" niveau-01">02</p>
-                    <div class="flex space-between">
+                            <h2 class="w-60 goldy-color size-20">HIKING ESSENTIALS</h2>
 
-                        <div class="w-10" id="line"></div>
+                        </div>
 
-                        <h2 class="w-50">HIKING ESSENTIALS</h2>
-
+                        <h3 class="margin-bottom-25 size-50"> Picking the right Hiking Gear!</h3>
+                        <p class="margin-bottom-25">The nice thing about beginning hiking is that you don’t really need
+                            any
+                            special gear, you can
+                            probably get away with things you already have.
+                            Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and
+                            regular
+                            clothes, which will get heavy and chafe wif they get sweaty or wet. </p>
+                        <a href="" class="goldy-color"> read more →</a>
                     </div>
-
-                    <h3> Picking the right Hiking Gear!</h3>
-                    <p>The nice thing about beginning hiking is that you don’t really need any special gear, you can
-                        probably get away with things you already have.
-                        Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and
-                        regular
-                        clothes, which will get heavy and chafe wif they get sweaty or wet. </p>
-                    <a href="" class="goldy-color"> read more →</a>
-
                 </div>
             </div>
 
@@ -150,17 +169,19 @@
 
             <div class="flex space-between align-center">
 
-                <div class="w-45">
-                    <p class=" niveau-01">03</p>
-                    <div>
-                        <div class="flex space-between">
-                            <div class="w-10" id="line"></div>
+                <div class="w-60 niveau-02 ">
+                    <p class=" niveau-01 size-150 gras-900 opacity  ">03</p>
+                    <div class="margin-left-150 margin-top-100 ">
 
-                            <h2 class="w-50">GET STARTED</h2>
+                        <div class="flex align-end space-between w-80 margin-bottom-25 ">
+                            <div class="w-05 margin-bottom-5 " id="line2"></div>
+
+                            <h2 class="w-70 goldy-color size-20">WHERE YOU GO IS THE KEY</h2>
                         </div>
 
-                        <h3> WHERE YOU GO IS THE KEY</h3>
-                        <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock
+                        <h3 class="margin-bottom-25 size-50">Understanding your map & your timing </h3>
+                        <p class="margin-bottom-25">To start, print out the hiking guide and map. If it’s raining, throw
+                            them in a Zip-Lock
                             bag.
                             Read
                             over the guide, study the map, and have a good idea of what to expect. I like to know
@@ -176,7 +197,7 @@
                     </div>
                 </div>
 
-                <img src="asset/image3.jpg" class="w-45" alt="montage">
+                <img src="asset/image3.jpg" class="w-38" alt="montage">
 
             </div>
 
@@ -184,12 +205,13 @@
 
 
 
-        <footer class="margin-top-250">
+        <footer class="margin-top-100">
             <div class="container-1000 flex space-between">
                 <div class="w-60">
                     <div class="margin-bottom-100">
-                        <a href="index.html" class="txt-white ">MNTN</a>
-                        <p class="margin-top-10">Get out there & discover your next slope, mountain & destination!</p>
+                        <a href="index.html" class="txt-white size-20 gras-900 ">MNTN</a>
+                        <p class="margin-top-10 w-48">Get out there & discover your next slope, mountain & destination!
+                        </p>
                     </div>
 
                     <p>Copyright 2023 MNTN, Inc. Terms & Privacy</p>
@@ -208,7 +230,8 @@
                         </ul>
                     </nav>
 
-                    <nav class="w-50">
+                    <nav class="w-35 ">
+                        <!-- encore un bidouillage de taille pour justifier à droite le text.... -->
                         <p class="goldy-color">More on MNTN</p>
                         <ul>
                             <li><a href=""></a>The Team</li>

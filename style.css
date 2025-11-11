@@ -9,38 +9,46 @@
 
 
 .andada-pro {
-  font-family: "Andada Pro", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Andada Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-      font-family: "Andada Pro", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Andada Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
 
 }
 
 .josefin-sans {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 p {
- font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
 }
 
-a, ul, li, nav {
-    color : white ;
+a,
+ul,
+li,
+nav {
+    color: white;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -63,6 +71,7 @@ a, ul, li, nav {
 
 
 }
+
 /*-------------------------------------------------------------------------------------------*/
 
 /* TEST DE VISUALISATION POUR LES NULS!!!*/
@@ -82,6 +91,7 @@ a, ul, li, nav {
 .bgyellow {
     background-color: yellow;
 }
+
 /*-------------------------------------------------------------------------------------------*/
 
 /* les classe fonctionnelle flex */
@@ -108,7 +118,7 @@ a, ul, li, nav {
 }
 
 .justify-end {
-justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .justify-flexstart {
@@ -143,8 +153,19 @@ justify-content: flex-end;
 .item-center {
     justify-items: center;
 }
+
+/* OMG!!!!!! */
+.vertical {
+    flex-direction: column
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* les classes de largeur */
+
+.w-05 {
+    width: 5%;
+}
+
 
 .w-10 {
     width: 10%;
@@ -182,6 +203,10 @@ justify-content: flex-end;
 
 .w-33 {
     width: 33%;
+}
+
+.w-35 {
+    width: 35%;
 }
 
 .w-38 {
@@ -236,9 +261,75 @@ justify-content: flex-end;
     width: 80%;
 }
 
+.w-90 {
+    width: 90%;
+}
+
 .w-100 {
     width: 100%;
 }
+
+/* LES TAILLES DE POLICE */
+.size-15 {
+    font-size: 15px;
+}
+
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-40 {
+    font-size: 40px;
+}
+
+.size-50 {
+    font-size: 50px;
+}
+
+.size-100 {
+    font-size: 100px;
+}
+
+.size-150 {
+    font-size: 150px;
+}
+
+/* c'est gras, c'est gras mais qu'est ce que c'est bon le KEBAB!!! */
+
+.gras-900 {
+    font-weight: 900;
+}
+
+/* mes gaps */
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+/* Blind you told me blind? */
+
+.opacity {
+    opacity: 0.20;
+}
+
+/* mes padding */
+
+.padding-05 {
+    padding: 5px;
+}
+
 /*-------------------------------------------------------------------------------------------*/
 /* seul les margin top et bottom sont tolérés*/
 /* Beaucoup de margin bottom et top beaucoup trop, dsl je ne suis pas encore au point*/
@@ -275,6 +366,15 @@ justify-content: flex-end;
     margin-top: 200px;
 }
 
+/* j'en suis réduit à faire des margin de 1*/
+.margin-bottom-1 {
+    margin-bottom: 1px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
 .margin-bottom-10 {
     margin-bottom: 10px;
 }
@@ -295,8 +395,29 @@ justify-content: flex-end;
     margin-bottom: 250px;
 }
 
+.margin-bottom-300 {
+    margin-bottom: 300px;
+}
+/*honte sur moi désolé pour ces 2 margins*/
+
 .margin-right-50 {
     margin-right: 50px;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
+}
+
+.margin-left-80 {
+    margin-left: 80px;
+}
+
+.margin-left-100 {
+    margin-left: 100px;
+}
+
+.margin-left-150 {
+    margin-left: 150px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -328,6 +449,7 @@ justify-content: flex-end;
     align-items: center;
 
 }
+
 /*-------------------------------------------------------------------------------------------*/
 
 /* ce que j'apelle les inchangés*/
@@ -348,7 +470,7 @@ ul {
     list-style: none;
 }
 
-li {
+header nav ul li {
     font-weight: bolder;
     font-size: larger;
 }
@@ -368,17 +490,19 @@ li {
 
 .fixed-position {
     position: fixed;
-    
+    z-index: 10;
+  
+
 }
 
 header {
-    width : 100%;
-    
+    width: 100%;
+
 }
 
 /*mon habit de gala*/
 .black-clothes {
-background-color: #0B1D26;
+    background-color: #0B1D26;
 }
 
 /*----------------------------------------------------------------------*/
@@ -392,6 +516,8 @@ background-color: #0B1D26;
     background-position: center;
     height: 100vH;
     padding: 0 0 50px 200px;
+    position: relative;
+    z-index: -1;
 }
 
 .border-right {
@@ -403,7 +529,14 @@ background-color: #0B1D26;
 
 #line {
     height: 3px;
-    width: 70px;
+    width: 90px;
+    background-color: #FBD784;
+    align-items: flex-end;
+}
+
+#line2 {
+    height: 3px;
+    width: 40px;
     background-color: #FBD784;
     align-items: flex-end;
 }
@@ -412,12 +545,38 @@ background-color: #0B1D26;
     color: #FBD784;
 }
 
-.niveau-01 {
-    position: fixed;
+.niveau-nega {
+    position: relative;
     z-index: -1;
+    top: 0px;
+    left: 0px;
 
 }
 
+
+
+.niveau-01 {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+
+}
+
+.niveau-01-bis {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left:0px;
+
+}
+
+.niveau-02 {
+    position: relative;
+    z-index: 2;
+
+
+}
 
 
 /*----------------------------------------------------------------------*/
